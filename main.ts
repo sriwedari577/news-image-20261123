@@ -313,7 +313,7 @@ function drawPage() {
   text('UN: ROBOT WEAPONS TALKS TO RUN TO 2028', px0 + 16, fy + 54, 2, INK);
   text('INDONESIA FIRE: 24 BODIES FOUND', 548, fy + 12, 2, INK);
   text('NEPAL PM MEETS MODI IN DELHI', 548, fy + 33, 2, GREY);
-  text('LIVERPOOL BEAT MAN UTD', 548, fy + 54, 2, GREY);
+  text('NATO: RUSSIAN NUCLEAR-ARMED SATELLITE', 548, fy + 54, 2, GREY);
 
   // Footer.
   textCentered('AS REPORTED ON 23 NOVEMBER 2026', W / 2, H - 26, 2, GREY);
