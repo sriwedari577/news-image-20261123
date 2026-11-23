@@ -286,7 +286,7 @@ function drawPage() {
 
   const px0 = 28, pw = (W - 2 * 28 - 18) / 2, py = 168, ph = 222, gap = 14;
   panel(px0, py, pw, ph, 'CLIMATE', TEAL, 'COP31 TALKS COLLAPSE',
-    'NO DEAL IN ANTALYA. EU WALKS OUT OVER A TEXT SILENT ON FOSSIL FUELS.',
+    'NO DEAL IN ANTALYA. BLAME GAME BEGINS AS ISLAND NATIONS DESPAIR.',
     'ANTALYA, TURKEY', iconGlobe);
   panel(px0 + pw + 18, py, pw, ph, 'NATO', BLUE, 'NATO MEETS ON POLAND',
     'EMERGENCY TALKS AFTER 3 RUSSIAN MISSILES ENTER POLISH AIRSPACE.',
@@ -295,13 +295,13 @@ function drawPage() {
     'RESCUERS SEARCH THE RUBBLE. KYIV REGION HOLDS A DAY OF MOURNING.',
     'DYMER, UKRAINE', iconBlock);
   panel(px0 + pw + 18, py + ph + gap, pw, ph, 'GULF', RED, 'TANKERS HIT MINES',
-    'TWO SUPERTANKERS CATCH FIRE AFTER HITTING MINES EAST OF HORMUZ.',
+    'IRAN SAYS TWO TANKERS HIT MINES EAST OF HORMUZ.',
     'STRAIT OF HORMUZ', iconTanker);
   panel(px0, py + 2 * (ph + gap), pw, ph, 'LIBYA', BLUE, 'SECOND STRIKE OFF BENGHAZI',
     'DRONES HIT A SECOND SHIP OFF LIBYA. THE CORVETTE CAPSIZED.',
     'BENGHAZI, LIBYA', iconBlast);
   panel(px0 + pw + 18, py + 2 * (ph + gap), pw, ph, 'ASIA', AMBER, 'MINISTER QUITS IN SEOUL',
-    'MINISTER RESIGNS OVER AI CHEATING IN THE COLLEGE ENTRANCE EXAMS.',
+    'MINISTER QUITS OVER EXAM SECURITY CHAOS AFTER AI CHEATING SCANDAL.',
     'SEOUL, SOUTH KOREA', iconExam);
 
   // Foot strip: the day's other headlines, two columns.
@@ -310,7 +310,7 @@ function drawPage() {
   rect(px0, fy, W - 2 * px0, 3, INK);
   text('MARKETS: TAIWAN BANS SHORT SALES', px0 + 16, fy + 12, 2, INK);
   text('SHARES FELL 17.5% IN A WEEK', px0 + 16, fy + 33, 2, GREY);
-  text('UN: 128 STATES BACK ROBOT RULES TALKS', px0 + 16, fy + 54, 2, INK);
+  text('UN: ROBOT WEAPONS TALKS TO RUN TO 2028', px0 + 16, fy + 54, 2, INK);
   text('INDONESIA FIRE: 24 BODIES FOUND', 548, fy + 12, 2, INK);
   text('NEPAL PM MEETS MODI IN DELHI', 548, fy + 33, 2, GREY);
   text('LIVERPOOL BEAT MAN UTD', 548, fy + 54, 2, GREY);
